@@ -133,7 +133,8 @@ watch(() => window.innerWidth, updateVisibleAnimals);
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #a89393;
+  background: linear-gradient(to right, rgba(168, 147, 147, 1), rgba(245, 232, 232, 0));
+
 }
 
 .carousel-wrapper {
@@ -166,6 +167,7 @@ watch(() => window.innerWidth, updateVisibleAnimals);
 .carousel-item.active {
   transform: scale(0.9); /* 选中时缩小圆圈 */
   z-index: 2; /* 确保选中的项处于最上层 */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
 }
 
 .animal-img-container {
