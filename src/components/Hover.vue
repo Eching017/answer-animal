@@ -1,6 +1,9 @@
 <template>
   <div class="container">
-    <div class="box" v-for="(box, index) in boxes" :key="index">
+    <div
+      class="box"
+      v-for="(box, index) in boxes" :key="index"
+    >
       <div class="content">
         <i :class="box.icon"></i>
         <p>{{ box.text }}</p>

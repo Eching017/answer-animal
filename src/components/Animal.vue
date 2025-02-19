@@ -34,7 +34,7 @@ onMounted(async () => {
       })
       .catch(error => {
         console.error('Failed to extract color:', error)
-        animalStyles.value[index] = { backgroundColor: '#FFCC00' } // 设置默认颜色
+        animalStyles.value[index] = { backgroundColor: '#FFCC00' }
       })
   )
   await Promise.all(colorPromises)
@@ -91,9 +91,9 @@ const scrollToSelectedAnimal = (index) => {
 
   if (selectedItem) {
     selectedItem.scrollIntoView({
-      behavior: 'smooth', // 平滑滚动
-      block: 'center', // 滚动到视口中间
-      inline: 'center' // 保证图标在水平方向居中
+      behavior: 'smooth',
+      block: 'center',
+      inline: 'center'
     })
   }
 }
