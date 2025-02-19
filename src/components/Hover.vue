@@ -14,11 +14,11 @@ export default {
   data() {
     return {
       boxes: [
-        { text: "Home", icon: "fas fa-home" },         // Home icon
-        { text: "User", icon: "fas fa-user" },         // User icon
-        { text: "Gear", icon: "fas fa-cog" },          // Gear icon
-        { text: "Bell", icon: "fas fa-bell" },         // Bell icon
-        { text: "Heart", icon: "fas fa-heart" },        // Heart icon
+        { text: "Home", icon: "fas fa-home" },
+        { text: "User", icon: "fas fa-user" },
+        { text: "Gear", icon: "fas fa-cog" },
+        { text: "Bell", icon: "fas fa-bell" },
+        { text: "Heart", icon: "fas fa-heart" },
       ]
     }
   }
@@ -60,7 +60,7 @@ export default {
 
 .box i {
   font-size: 30px;
-  color: #666b6f; /* You can change the color of the icons here */
+  color: #666b6f;
   margin-bottom: 1px;
 }
 
